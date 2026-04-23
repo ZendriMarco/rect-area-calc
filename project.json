@@ -1,0 +1,20 @@
+{
+  "overview": "A simple rectangle area calculator. Enter width and height to instantly compute the area. Clean, focused single-page tool.",
+  "features": [
+    "Width and height input fields with real-time validation",
+    "Calculate button that computes area (width × height)",
+    "Clear button to reset all fields and result",
+    "Prominent area result display with unit label",
+    "Disables calculate button until both valid inputs are entered"
+  ],
+  "category": "tool",
+  "tags": [
+    "calculator",
+    "geometry",
+    "rectangle",
+    "area",
+    "math",
+    "tool"
+  ],
+  "last_updated": "2026-04-23T06:25:44.564Z"
+}
