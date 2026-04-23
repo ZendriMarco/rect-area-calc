@@ -1,0 +1,23 @@
+{
+  "dfx": "0.24.3",
+  "canisters": {
+    "backend": {
+      "type": "motoko",
+      "main": "src/backend/main.mo",
+      "candid": "src/backend/dist/backend.did"
+    },
+    "frontend": {
+      "type": "assets",
+      "source": ["src/frontend/dist"],
+      "build": ["pnpm --filter frontend build"],
+      "dependencies": ["backend"]
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:4943",
+      "type": "ephemeral"
+    }
+  },
+  "output_env_file": ".env"
+}
